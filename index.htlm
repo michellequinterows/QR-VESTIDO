@@ -42,7 +42,7 @@
 <body>
 
 <model-viewer
-  src="textured.glb"
+  src="jarronescala.glb"
   camera-controls
   auto-rotate
   shadow-intensity="1">
@@ -63,7 +63,7 @@ function abrirAR() {
   } 
   else if (isAndroid) {
     window.location.href =
-      "intent://arvr.google.com/scene-viewer/1.0?file=https://michellequinterows.github.io/QR/textured.glb&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;end;";
+      "intent://arvr.google.com/scene-viewer/1.0?file=https://michellequinterows.github.io/QR/jarronescala&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;end;";
   } 
   else {
     alert("Abre este enlace desde un iPhone o Android compatible.");
