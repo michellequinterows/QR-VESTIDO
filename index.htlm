@@ -42,7 +42,7 @@
 <body>
 
 <model-viewer
-  src="jarronescala.glb"
+  src="vestidoescala.glb"
   camera-controls
   auto-rotate
   shadow-intensity="1">
@@ -59,11 +59,11 @@ function abrirAR() {
   var isAndroid = /Android/.test(navigator.userAgent);
 
   if (isiOS) {
-    window.location.href = "https://michellequinterows.github.io/QR/textured.usdz";
+    window.location.href = "https://michellequinterows.github.io/QR/vestidoescala.usdz";
   } 
   else if (isAndroid) {
     window.location.href =
-      "intent://arvr.google.com/scene-viewer/1.0?file=https://michellequinterows.github.io/QR/jarronescala&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;end;";
+      "intent://arvr.google.com/scene-viewer/1.0?file=https://michellequinterows.github.io/QR/vestidoescala.glb&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;end;";
   } 
   else {
     alert("Abre este enlace desde un iPhone o Android compatible.");
